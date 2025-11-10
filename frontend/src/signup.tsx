@@ -57,7 +57,7 @@ const Signup: React.FC<SignupProps> = ({ axios }) => {
 		</div>
 	) : (
 		<form className='form' onSubmit={handleSubmit}>
-			<h3>Signup</h3>
+			<h3>SIGN UP</h3>
 			<p className="response">{response}</p>
 			<input
 				placeholder='Full Name'
